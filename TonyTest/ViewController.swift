@@ -8,13 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    @IBOutlet weak var theLabel: UILabel!
+    override func viewDidLoad()
+    {
+        //only gets called one time ever
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func pressMeButtonPressed(sender: AnyObject)
+    {
+        self.theLabel.text = "Woot"
+    }
+    
+    @IBAction func nextButtonPressed(sender: AnyObject)
+    {
+        let vc = self.storyboard?.instantiateViewControllerWithIdentifier("Page2VC") as! Page2VC
+        vc.theMessage = "My super message"
+        self.presentViewController(vc, animated: true, completion: nil)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -14,6 +14,7 @@
 		B87F507D1C245C5B00156B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B87F507B1C245C5B00156B36 /* LaunchScreen.storyboard */; };
 		B87F50881C245C5C00156B36 /* TonyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F50871C245C5C00156B36 /* TonyTestTests.swift */; };
 		B87F50931C245C5C00156B36 /* TonyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F50921C245C5C00156B36 /* TonyTestUITests.swift */; };
+		B87F50A11C2463C400156B36 /* Page2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87F50A01C2463C400156B36 /* Page2VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B87F508E1C245C5C00156B36 /* TonyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TonyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87F50921C245C5C00156B36 /* TonyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonyTestUITests.swift; sourceTree = "<group>"; };
 		B87F50941C245C5C00156B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87F50A01C2463C400156B36 /* Page2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B87F50721C245C5B00156B36 /* AppDelegate.swift */,
 				B87F50741C245C5B00156B36 /* ViewController.swift */,
+				B87F50A01C2463C400156B36 /* Page2VC.swift */,
 				B87F50761C245C5B00156B36 /* Main.storyboard */,
 				B87F50791C245C5B00156B36 /* Assets.xcassets */,
 				B87F507B1C245C5B00156B36 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87F50751C245C5B00156B36 /* ViewController.swift in Sources */,
+				B87F50A11C2463C400156B36 /* Page2VC.swift in Sources */,
 				B87F50731C245C5B00156B36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
